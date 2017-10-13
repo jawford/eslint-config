@@ -1,0 +1,23 @@
+{
+  "name": "@jawford/eslint-config",
+  "version": "4.0.0",
+  "description": "Just an eslint config.",
+  "main": "index.js",
+  "author": "James Awford",
+  "license": "MIT",
+
+  "scripts": {
+    "test": "eslint -c ./es6.js *.js ./rules",
+    "test:react": "eslint -c ./test/react-config.js ./test/react.jsx"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jawford/eslint-config.git"
+  },
+
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-plugin-react": "^7.1.0"
+  }
+}
