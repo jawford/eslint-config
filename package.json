@@ -1,7 +1,7 @@
 {
   "name": "@jawford/eslint-config",
-  "version": "4.0.0",
-  "description": "Just an eslint config.",
+  "version": "1.0.0",
+  "description": "a personal eslint config",
   "main": "index.js",
   "author": "James Awford",
   "license": "MIT",
